@@ -1,0 +1,1095 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 7
+            [file] => src/auth/SyncrocityClient.php
+            [message] => No docblock for element 'vps\tools\auth\SyncrocityClient'
+        )
+
+    [1] => Array
+        (
+            [line] => 54
+            [file] => src/auth/SyncrocityClient.php
+            [message] => Method defaultNormalizeUserAttributeMap has no parent to inherit from in vps\tools\auth\SyncrocityClient.
+        )
+
+    [2] => Array
+        (
+            [line] => 72
+            [file] => src/auth/SyncrocityClient.php
+            [message] => Method defaultName has no parent to inherit from in vps\tools\auth\SyncrocityClient.
+        )
+
+    [3] => Array
+        (
+            [line] => 80
+            [file] => src/auth/SyncrocityClient.php
+            [message] => Method defaultTitle has no parent to inherit from in vps\tools\auth\SyncrocityClient.
+        )
+
+    [4] => Array
+        (
+            [line] => 88
+            [file] => src/auth/SyncrocityClient.php
+            [message] => Method defaultViewOptopns has no parent to inherit from in vps\tools\auth\SyncrocityClient.
+        )
+
+    [5] => Array
+        (
+            [line] => 99
+            [file] => src/auth/SyncrocityClient.php
+            [message] => Method initUserAttributes has no parent to inherit from in vps\tools\auth\SyncrocityClient.
+        )
+
+    [6] => Array
+        (
+            [line] => 29
+            [file] => src/components/CategoryManager.php
+            [message] => No short description for element '$_modelClass'
+        )
+
+    [7] => Array
+        (
+            [line] => 36
+            [file] => src/components/Notification.php
+            [message] => No docblock for element 'getMessage'
+        )
+
+    [8] => Array
+        (
+            [line] => 38
+            [file] => src/components/Notification.php
+            [message] => No docblock for element 'getType'
+        )
+
+    [9] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\add() in vps\tools\components\NotificationManager
+        )
+
+    [10] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\toSession() in vps\tools\components\NotificationManager
+        )
+
+    [11] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\add() in vps\tools\components\NotificationManager
+        )
+
+    [12] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\toSession() in vps\tools\components\NotificationManager
+        )
+
+    [13] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\add() in vps\tools\components\NotificationManager
+        )
+
+    [14] => Array
+        (
+            [file] => src/components/NotificationManager.php
+            [message] => broken link to \vps\tools\components\toSession() in vps\tools\components\NotificationManager
+        )
+
+    [15] => Array
+        (
+            [line] => 12
+            [file] => src/controllers/SettingsController.php
+            [message] => No docblock for element '$defaultAction'
+        )
+
+    [16] => Array
+        (
+            [line] => 12
+            [file] => src/controllers/SettingsController.php
+            [message] => No short description for element '$defaultAction'
+        )
+
+    [17] => Array
+        (
+            [line] => 6
+            [file] => src/controllers/WebController.php
+            [message] => No docblock for element 'vps\tools\controllers\WebController'
+        )
+
+    [18] => Array
+        (
+            [line] => 17
+            [file] => src/controllers/WebController.php
+            [message] => No short description for element '$_assetBundle'
+        )
+
+    [19] => Array
+        (
+            [file] => src/controllers/WebController.php
+            [message] => broken link to Yii::tr() in vps\tools\controllers\WebController
+        )
+
+    [20] => Array
+        (
+            [file] => src/controllers/WebController.php
+            [message] => broken link to Yii::tr() in vps\tools\controllers\WebController
+        )
+
+    [21] => Array
+        (
+            [file] => src/controllers/WebController.php
+            [message] => broken link to Yii::tr() in vps\tools\controllers\WebController
+        )
+
+    [22] => Array
+        (
+            [line] => 6
+            [file] => src/db/Migration.php
+            [message] => No docblock for element 'vps\tools\db\Migration'
+        )
+
+    [23] => Array
+        (
+            [line] => 3
+            [file] => src/framework/Yii.php
+            [message] => No docblock for element 'Yii'
+        )
+
+    [24] => Array
+        (
+            [line] => 4
+            [file] => src/helpers/ArrayHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\ArrayHelper'
+        )
+
+    [25] => Array
+        (
+            [line] => 181
+            [file] => src/helpers/ArrayHelper.php
+            [message] => Undefined parameter documented: $column1 in mergeColumns().
+        )
+
+    [26] => Array
+        (
+            [line] => 181
+            [file] => src/helpers/ArrayHelper.php
+            [message] => Undefined parameter documented: $column2 in mergeColumns().
+        )
+
+    [27] => Array
+        (
+            [line] => 181
+            [file] => src/helpers/ArrayHelper.php
+            [message] => Undefined parameter documented: $column3 in mergeColumns().
+        )
+
+    [28] => Array
+        (
+            [line] => 4
+            [file] => src/helpers/Console.php
+            [message] => No docblock for element 'vps\tools\helpers\Console'
+        )
+
+    [29] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/FFmpegHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\FFmpegHelper'
+        )
+
+    [30] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/FileHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\FileHelper'
+        )
+
+    [31] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/Html.php
+            [message] => No docblock for element 'vps\tools\helpers\Html'
+        )
+
+    [32] => Array
+        (
+            [file] => src/helpers/Html.php
+            [message] => broken link to \Url::to() in vps\tools\helpers\Html
+        )
+
+    [33] => Array
+        (
+            [file] => src/helpers/Html.php
+            [message] => broken link to \Url::to() in vps\tools\helpers\Html
+        )
+
+    [34] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/HumanHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\HumanHelper'
+        )
+
+    [35] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/RemoteFileHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\RemoteFileHelper'
+        )
+
+    [36] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/StringHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\StringHelper'
+        )
+
+    [37] => Array
+        (
+            [line] => 6
+            [file] => src/helpers/TimeHelper.php
+            [message] => No docblock for element 'vps\tools\helpers\TimeHelper'
+        )
+
+    [38] => Array
+        (
+            [line] => 4
+            [file] => src/helpers/Url.php
+            [message] => No docblock for element 'vps\tools\helpers\UrlHelper'
+        )
+
+    [39] => Array
+        (
+            [line] => 84
+            [file] => src/html/Field.php
+            [message] => Method render has no parent to inherit from in vps\tools\html\Field.
+        )
+
+    [40] => Array
+        (
+            [line] => 251
+            [file] => src/html/Field.php
+            [message] => Method renderLabelParts has no parent to inherit from in vps\tools\html\Field.
+        )
+
+    [41] => Array
+        (
+            [line] => 17
+            [file] => src/html/Form.php
+            [message] => Method $fieldClass has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [42] => Array
+        (
+            [line] => 23
+            [file] => src/html/Form.php
+            [message] => Method $options has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [43] => Array
+        (
+            [line] => 29
+            [file] => src/html/Form.php
+            [message] => Method $layout has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [44] => Array
+        (
+            [line] => 35
+            [file] => src/html/Form.php
+            [message] => Method $fieldConfig has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [45] => Array
+        (
+            [line] => 44
+            [file] => src/html/Form.php
+            [message] => Method $enableClientScript has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [46] => Array
+        (
+            [line] => 49
+            [file] => src/html/Form.php
+            [message] => Method $method has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [47] => Array
+        (
+            [line] => 60
+            [file] => src/html/Form.php
+            [message] => Method init has no parent to inherit from in vps\tools\html\Form.
+        )
+
+    [48] => Array
+        (
+            [line] => 4
+            [file] => src/net/CurlResponse.php
+            [message] => No docblock for element 'vps\tools\net\CurlResponse'
+        )
+
+    [49] => Array
+        (
+            [file] => vendor/yiisoft/yii2/base/Component.php
+            [message] => broken link to Object in yii\base\Component
+        )
+
+    [50] => Array
+        (
+            [file] => vendor/yiisoft/yii2/base/Security.php
+            [message] => broken link to \yii\base\hash_algos() in yii\base\Security
+        )
+
+    [51] => Array
+        (
+            [file] => vendor/yiisoft/yii2/base/Security.php
+            [message] => broken link to \yii\base\hash_algos() in yii\base\Security
+        )
+
+    [52] => Array
+        (
+            [file] => vendor/yiisoft/yii2/behaviors/AttributeBehavior.php
+            [message] => broken link to \yii\behaviors\Expression in yii\behaviors\AttributeBehavior
+        )
+
+    [53] => Array
+        (
+            [file] => vendor/yiisoft/yii2/behaviors/BlameableBehavior.php
+            [message] => broken link to \yii\behaviors\Expression in yii\behaviors\BlameableBehavior
+        )
+
+    [54] => Array
+        (
+            [file] => vendor/yiisoft/yii2/behaviors/BlameableBehavior.php
+            [message] => broken link to \yii\behaviors\Expression in yii\behaviors\BlameableBehavior
+        )
+
+    [55] => Array
+        (
+            [file] => vendor/yiisoft/yii2/behaviors/TimestampBehavior.php
+            [message] => broken link to \yii\behaviors\Expression in yii\behaviors\TimestampBehavior
+        )
+
+    [56] => Array
+        (
+            [file] => vendor/yiisoft/yii2/behaviors/TimestampBehavior.php
+            [message] => broken link to \yii\behaviors\Expression in yii\behaviors\TimestampBehavior
+        )
+
+    [57] => Array
+        (
+            [file] => vendor/yiisoft/yii2/captcha/Captcha.php
+            [message] => broken link to \yii\captcha\yii\widgets\ActiveForm in yii\captcha\Captcha
+        )
+
+    [58] => Array
+        (
+            [file] => vendor/yiisoft/yii2/captcha/Captcha.php
+            [message] => broken link to \yii\captcha\yii\widgets\ActiveField::widget() in yii\captcha\Captcha
+        )
+
+    [59] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [60] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [61] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [62] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [63] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [64] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [65] => Array
+        (
+            [line] => 87
+            [file] => vendor/yiisoft/yii2/captcha/CaptchaValidator.php
+            [message] => Method param $object does not exist in parent method, @inheritdoc not possible in clientValidateAttribute in yii\captcha\CaptchaValidator.
+        )
+
+    [66] => Array
+        (
+            [file] => vendor/yiisoft/yii2/console/Controller.php
+            [message] => broken link to \yii\console\options($actionID) in yii\console\Controller
+        )
+
+    [67] => Array
+        (
+            [line] => 59
+            [file] => vendor/yiisoft/yii2/console/Markdown.php
+            [message] => Method renderParagraph has no parent to inherit from in yii\console\Markdown.
+        )
+
+    [68] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/ActiveRecordInterface.php
+            [message] => broken link to \yii\db\validate() in yii\db\ActiveRecordInterface
+        )
+
+    [69] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/ActiveRecordInterface.php
+            [message] => broken link to \yii\db\validate() in yii\db\ActiveRecordInterface
+        )
+
+    [70] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/ActiveRecordInterface.php
+            [message] => broken link to \yii\db\validate() in yii\db\ActiveRecordInterface
+        )
+
+    [71] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/Connection.php
+            [message] => broken link to \yii\db\yii\db\mssql\PDO in yii\db\Connection
+        )
+
+    [72] => Array
+        (
+            [line] => 78
+            [file] => vendor/yiisoft/yii2/db/Migration.php
+            [message] => Method getDb has no parent to inherit from in yii\db\Migration.
+        )
+
+    [73] => Array
+        (
+            [line] => 535
+            [file] => vendor/yiisoft/yii2/db/Query.php
+            [message] => Method param $params does not exist in parent method, @inheritdoc not possible in where in yii\db\Query.
+        )
+
+    [74] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::orderBy in yii\db\mssql\QueryBuilder
+        )
+
+    [75] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::limit in yii\db\mssql\QueryBuilder
+        )
+
+    [76] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::offset in yii\db\mssql\QueryBuilder
+        )
+
+    [77] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::orderBy in yii\db\mssql\QueryBuilder
+        )
+
+    [78] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::limit in yii\db\mssql\QueryBuilder
+        )
+
+    [79] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::offset in yii\db\mssql\QueryBuilder
+        )
+
+    [80] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::orderBy in yii\db\mssql\QueryBuilder
+        )
+
+    [81] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::limit in yii\db\mssql\QueryBuilder
+        )
+
+    [82] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::offset in yii\db\mssql\QueryBuilder
+        )
+
+    [83] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::orderBy in yii\db\oci\QueryBuilder
+        )
+
+    [84] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::limit in yii\db\oci\QueryBuilder
+        )
+
+    [85] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::offset in yii\db\oci\QueryBuilder
+        )
+
+    [86] => Array
+        (
+            [line] => 208
+            [file] => vendor/yiisoft/yii2/filters/Cors.php
+            [message] => Undefined parameter documented:  in addCorsHeaders().
+        )
+
+    [87] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [88] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [89] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [90] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [91] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [92] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/grid/GridViewAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [93] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseConsole.php
+            [message] => broken link to \yii\helpers\FG_COLOR in yii\helpers\BaseConsole
+        )
+
+    [94] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [message] => broken link to \yii\helpers\activeCheckBoxList() in yii\helpers\BaseHtml
+        )
+
+    [95] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \yii\helpers\Transliterator in yii\helpers\BaseInflector
+        )
+
+    [96] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \yii\helpers\Transliterator in yii\helpers\BaseInflector
+        )
+
+    [97] => Array
+        (
+            [line] => 29
+            [file] => vendor/yiisoft/yii2/helpers/BaseJson.php
+            [message] => No short description for element '$jsonErrorMessages'
+        )
+
+    [98] => Array
+        (
+            [file] => vendor/yiisoft/yii2/i18n/Formatter.php
+            [message] => broken link to \yii\i18n\sizeFormat in yii\i18n\Formatter
+        )
+
+    [99] => Array
+        (
+            [file] => vendor/yiisoft/yii2/i18n/Formatter.php
+            [message] => broken link to \yii\i18n\sizeFormat in yii\i18n\Formatter
+        )
+
+    [100] => Array
+        (
+            [line] => 37
+            [file] => vendor/yiisoft/yii2/i18n/GettextMessageSource.php
+            [message] => No short description for element '$basePath'
+        )
+
+    [101] => Array
+        (
+            [line] => 41
+            [file] => vendor/yiisoft/yii2/i18n/GettextMessageSource.php
+            [message] => No short description for element '$catalog'
+        )
+
+    [102] => Array
+        (
+            [line] => 45
+            [file] => vendor/yiisoft/yii2/i18n/GettextMessageSource.php
+            [message] => No short description for element '$useMoFile'
+        )
+
+    [103] => Array
+        (
+            [line] => 49
+            [file] => vendor/yiisoft/yii2/i18n/GettextMessageSource.php
+            [message] => No short description for element '$useBigEndian'
+        )
+
+    [104] => Array
+        (
+            [line] => 921
+            [file] => vendor/yiisoft/yii2/rbac/DbManager.php
+            [message] => No docblock for element 'invalidateCache'
+        )
+
+    [105] => Array
+        (
+            [line] => 931
+            [file] => vendor/yiisoft/yii2/rbac/DbManager.php
+            [message] => No docblock for element 'loadFromCache'
+        )
+
+    [106] => Array
+        (
+            [line] => 96
+            [file] => vendor/yiisoft/yii2/rbac/DbManager.php
+            [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\DbManager.
+        )
+
+    [107] => Array
+        (
+            [line] => 65
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => No short description for element '$items'
+        )
+
+    [108] => Array
+        (
+            [line] => 69
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => No short description for element '$children'
+        )
+
+    [109] => Array
+        (
+            [line] => 73
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => No short description for element '$assignments'
+        )
+
+    [110] => Array
+        (
+            [line] => 77
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => No short description for element '$rules'
+        )
+
+    [111] => Array
+        (
+            [line] => 77
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\PhpManager.
+        )
+
+    [112] => Array
+        (
+            [file] => vendor/yiisoft/yii2/rest/ActiveController.php
+            [message] => broken link to \yii\rest\VerbFilter::actions in yii\rest\ActiveController
+        )
+
+    [113] => Array
+        (
+            [file] => vendor/yiisoft/yii2/rest/Controller.php
+            [message] => broken link to \yii\rest\Behavior in yii\rest\Controller
+        )
+
+    [114] => Array
+        (
+            [file] => vendor/yiisoft/yii2/validators/EachValidator.php
+            [message] => broken link to \yii\validators\yii\base\Model::rules() in yii\validators\EachValidator
+        )
+
+    [115] => Array
+        (
+            [file] => vendor/yiisoft/yii2/validators/EachValidator.php
+            [message] => broken link to \yii\validators\yii\base\Model::rules() in yii\validators\EachValidator
+        )
+
+    [116] => Array
+        (
+            [line] => 225
+            [file] => vendor/yiisoft/yii2/validators/FileValidator.php
+            [message] => Method param $file does not exist in parent method, @inheritdoc not possible in validateValue in yii\validators\FileValidator.
+        )
+
+    [117] => Array
+        (
+            [line] => 317
+            [file] => vendor/yiisoft/yii2/validators/FileValidator.php
+            [message] => Method param $trim does not exist in parent method, @inheritdoc not possible in isEmpty in yii\validators\FileValidator.
+        )
+
+    [118] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/validators/PunycodeAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [119] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/validators/PunycodeAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [120] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/validators/PunycodeAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [121] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/validators/PunycodeAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [122] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [123] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [124] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [125] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [126] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [127] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/validators/ValidationAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [128] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/AssetManager.php
+            [message] => broken link to \yii\web\js in yii\web\AssetManager
+        )
+
+    [129] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/AssetManager.php
+            [message] => broken link to \yii\web\css in yii\web\AssetManager
+        )
+
+    [130] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/AssetManager.php
+            [message] => broken link to \yii\web\js in yii\web\AssetManager
+        )
+
+    [131] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/AssetManager.php
+            [message] => broken link to \yii\web\css in yii\web\AssetManager
+        )
+
+    [132] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/web/JqueryAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [133] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/web/JqueryAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [134] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/web/JqueryAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [135] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/web/JqueryAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [136] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/Request.php
+            [message] => broken link to \yii\web\rawCsrfToken in yii\web\Request
+        )
+
+    [137] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/User.php
+            [message] => broken link to \yii\web\checkAcceptHeader in yii\web\User
+        )
+
+    [138] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [139] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [140] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [141] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [142] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [143] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/web/YiiAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [144] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [145] => Array
+        (
+            [line] => 18
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [146] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [147] => Array
+        (
+            [line] => 19
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [148] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [149] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [150] => Array
+        (
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInput.php
+            [message] => broken link to \yii\widgets\yii\widgets\ActiveForm in yii\widgets\MaskedInput
+        )
+
+    [151] => Array
+        (
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInput.php
+            [message] => broken link to \yii\widgets\yii\widgets\ActiveField::widget() in yii\widgets\MaskedInput
+        )
+
+    [152] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [153] => Array
+        (
+            [line] => 22
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [154] => Array
+        (
+            [line] => 23
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [155] => Array
+        (
+            [line] => 23
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [156] => Array
+        (
+            [line] => 26
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [157] => Array
+        (
+            [line] => 26
+            [file] => vendor/yiisoft/yii2/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [158] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [159] => Array
+        (
+            [line] => 20
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [160] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [161] => Array
+        (
+            [line] => 21
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [162] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [163] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/widgets/PjaxAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+)

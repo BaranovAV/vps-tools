@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/5fe7aa98/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/4b7bfee5/solarized_light.css" rel="stylesheet">
+<link href="./assets/c024a09a/style.css" rel="stylesheet">
+<script src="./assets/244af37/jquery.js"></script>
+<script src="./assets/5fe7aa98/js/bootstrap.js"></script>
+<script src="./assets/8a2653a5/jssearch.js"></script>    <title>Migration, vps\tools\db\Migration - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w8" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w8-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w8-collapse" class="collapse navbar-collapse"><ul id="w9" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-0" data-toggle="collapse" data-parent="#navigation">Not namespaced classes <b class="caret"></b></a><div id="navigation-0" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii.html">Yii</a>
+<a class="list-group-item" href="./yiirequirementchecker.html">YiiRequirementChecker</a></div>
+<a class="list-group-item" href="#navigation-1" data-toggle="collapse" data-parent="#navigation">vps\tools\auth <b class="caret"></b></a><div id="navigation-1" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-auth-syncrocityclient.html">SyncrocityClient</a></div>
+<a class="list-group-item" href="#navigation-2" data-toggle="collapse" data-parent="#navigation">vps\tools\components <b class="caret"></b></a><div id="navigation-2" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-components-categorymanager.html">CategoryManager</a>
+<a class="list-group-item" href="./vps-tools-components-notification.html">Notification</a>
+<a class="list-group-item" href="./vps-tools-components-notificationmanager.html">NotificationManager</a>
+<a class="list-group-item" href="./vps-tools-components-settingmanager.html">SettingManager</a></div>
+<a class="list-group-item" href="#navigation-3" data-toggle="collapse" data-parent="#navigation">vps\tools\controllers <b class="caret"></b></a><div id="navigation-3" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-controllers-settingscontroller.html">SettingsController</a>
+<a class="list-group-item" href="./vps-tools-controllers-webcontroller.html">WebController</a></div>
+<a class="list-group-item active" href="#navigation-4" data-toggle="collapse" data-parent="#navigation">vps\tools\db <b class="caret"></b></a><div id="navigation-4" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./vps-tools-db-migration.html">Migration</a></div>
+<a class="list-group-item" href="#navigation-5" data-toggle="collapse" data-parent="#navigation">vps\tools\helpers <b class="caret"></b></a><div id="navigation-5" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-console.html">Console</a>
+<a class="list-group-item" href="./vps-tools-helpers-ffmpeghelper.html">FFmpegHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-html.html">Html</a>
+<a class="list-group-item" href="./vps-tools-helpers-humanhelper.html">HumanHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-remotefilehelper.html">RemoteFileHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-timehelper.html">TimeHelper</a>
+<a class="list-group-item" href="./vps-tools-helpers-urlhelper.html">UrlHelper</a></div>
+<a class="list-group-item" href="#navigation-6" data-toggle="collapse" data-parent="#navigation">vps\tools\html <b class="caret"></b></a><div id="navigation-6" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-html-field.html">Field</a>
+<a class="list-group-item" href="./vps-tools-html-form.html">Form</a></div>
+<a class="list-group-item" href="#navigation-7" data-toggle="collapse" data-parent="#navigation">vps\tools\net <b class="caret"></b></a><div id="navigation-7" class="submenu panel-collapse collapse"><a class="list-group-item" href="./vps-tools-net-curl.html">Curl</a>
+<a class="list-group-item" href="./vps-tools-net-curlresponse.html">CurlResponse</a>
+<a class="list-group-item" href="./vps-tools-net-flow.html">Flow</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class vps\tools\db\Migration</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="vps-tools-db-migration.html">vps\tools\db\Migration</a> &raquo;
+<a href="yii-db-migration.html">yii\db\Migration</a> &raquo;
+<a href="yii-base-component.html">yii\base\Component</a> &raquo;
+<a href="yii-base-object.html">yii\base\Object</a></td></tr>
+                <tr><th>Implements</th><td><a href="yii-base-configurable.html">yii\base\Configurable</a>, <a href="yii-db-migrationinterface.html">yii\db\MigrationInterface</a></td></tr>
+                    <tr><th>Uses Traits</th><td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td></tr>
+                            </table>
+
+<div class="class-description">
+    <p><strong></strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="$behaviors">
+        <td><a href="yii-base-component.html#$behaviors-detail">$behaviors</a></td>
+        <td><a href="yii-base-behavior.html">yii\base\Behavior</a>[]</td>
+        <td>List of behaviors attached to this component</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="$db">
+        <td><a href="yii-db-migration.html#$db-detail">$db</a></td>
+        <td><a href="yii-db-connection.html">yii\db\Connection</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a></td>
+        <td>The DB connection object or the application component ID of the DB connection
+that this migration should work with.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="__call()">
+        <td><a href="yii-base-component.html#__call()-detail">__call()</a></td>
+        <td>Calls the named method which is not a class method.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__clone()">
+        <td><a href="yii-base-component.html#__clone()-detail">__clone()</a></td>
+        <td>This method is called after the object is created by cloning an existing one.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__construct()">
+        <td><a href="yii-base-object.html#__construct()-detail">__construct()</a></td>
+        <td>Constructor.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr class="inherited" id="__get()">
+        <td><a href="yii-base-component.html#__get()-detail">__get()</a></td>
+        <td>Returns the value of a component property.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__isset()">
+        <td><a href="yii-base-component.html#__isset()-detail">__isset()</a></td>
+        <td>Checks if a property is set, i.e. defined and not null.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__set()">
+        <td><a href="yii-base-component.html#__set()-detail">__set()</a></td>
+        <td>Sets the value of a component property.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__unset()">
+        <td><a href="yii-base-component.html#__unset()-detail">__unset()</a></td>
+        <td>Sets a component property to be null.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="addColumn()">
+        <td><a href="yii-db-migration.html#addColumn()-detail">addColumn()</a></td>
+        <td>Builds and executes a SQL statement for adding a new DB column.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="addCommentOnColumn()">
+        <td><a href="yii-db-migration.html#addCommentOnColumn()-detail">addCommentOnColumn()</a></td>
+        <td>Builds and execute a SQL statement for adding comment to column</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="addCommentOnTable()">
+        <td><a href="yii-db-migration.html#addCommentOnTable()-detail">addCommentOnTable()</a></td>
+        <td>Builds a SQL statement for adding comment to table</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="addForeignKey()">
+        <td><a href="yii-db-migration.html#addForeignKey()-detail">addForeignKey()</a></td>
+        <td>Builds a SQL statement for adding a foreign key constraint to an existing table.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="addPrimaryKey()">
+        <td><a href="yii-db-migration.html#addPrimaryKey()-detail">addPrimaryKey()</a></td>
+        <td>Builds and executes a SQL statement for creating a primary key.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="alterColumn()">
+        <td><a href="yii-db-migration.html#alterColumn()-detail">alterColumn()</a></td>
+        <td>Builds and executes a SQL statement for changing the definition of a column.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehavior()">
+        <td><a href="yii-base-component.html#attachBehavior()-detail">attachBehavior()</a></td>
+        <td>Attaches a behavior to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehaviors()">
+        <td><a href="yii-base-component.html#attachBehaviors()-detail">attachBehaviors()</a></td>
+        <td>Attaches a list of behaviors to the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="batchInsert()">
+        <td><a href="yii-db-migration.html#batchInsert()-detail">batchInsert()</a></td>
+        <td>Creates and executes an batch INSERT SQL statement.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="behaviors()">
+        <td><a href="yii-base-component.html#behaviors()-detail">behaviors()</a></td>
+        <td>Returns a list of behaviors that this component should behave as.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="bigInteger()">
+        <td><a href="yii-db-schemabuildertrait.html#bigInteger()-detail">bigInteger()</a></td>
+        <td>Creates a bigint column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="bigPrimaryKey()">
+        <td><a href="yii-db-schemabuildertrait.html#bigPrimaryKey()-detail">bigPrimaryKey()</a></td>
+        <td>Creates a big primary key column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="binary()">
+        <td><a href="yii-db-schemabuildertrait.html#binary()-detail">binary()</a></td>
+        <td>Creates a binary column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="boolean()">
+        <td><a href="yii-db-schemabuildertrait.html#boolean()-detail">boolean()</a></td>
+        <td>Creates a boolean column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="canGetProperty()">
+        <td><a href="yii-base-component.html#canGetProperty()-detail">canGetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be read.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="canSetProperty()">
+        <td><a href="yii-base-component.html#canSetProperty()-detail">canSetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be set.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="char()">
+        <td><a href="yii-db-schemabuildertrait.html#char()-detail">char()</a></td>
+        <td>Creates a char column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="className()">
+        <td><a href="yii-base-object.html#className()-detail">className()</a></td>
+        <td>Returns the fully qualified name of this class.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr class="inherited" id="createIndex()">
+        <td><a href="yii-db-migration.html#createIndex()-detail">createIndex()</a></td>
+        <td>Builds and executes a SQL statement for creating a new index.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="createTable()">
+        <td><a href="yii-db-migration.html#createTable()-detail">createTable()</a></td>
+        <td>Builds and executes a SQL statement for creating a new DB table.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr id="createView()">
+        <td><a href="vps-tools-db-migration.html#createView()-detail">createView()</a></td>
+        <td>Creates database view.</td>
+        <td><a href="vps-tools-db-migration.html">vps\tools\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="date()">
+        <td><a href="yii-db-schemabuildertrait.html#date()-detail">date()</a></td>
+        <td>Creates a date column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="dateTime()">
+        <td><a href="yii-db-schemabuildertrait.html#dateTime()-detail">dateTime()</a></td>
+        <td>Creates a datetime column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="decimal()">
+        <td><a href="yii-db-schemabuildertrait.html#decimal()-detail">decimal()</a></td>
+        <td>Creates a decimal column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="delete()">
+        <td><a href="yii-db-migration.html#delete()-detail">delete()</a></td>
+        <td>Creates and executes a DELETE SQL statement.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehavior()">
+        <td><a href="yii-base-component.html#detachBehavior()-detail">detachBehavior()</a></td>
+        <td>Detaches a behavior from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehaviors()">
+        <td><a href="yii-base-component.html#detachBehaviors()-detail">detachBehaviors()</a></td>
+        <td>Detaches all behaviors from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="double()">
+        <td><a href="yii-db-schemabuildertrait.html#double()-detail">double()</a></td>
+        <td>Creates a double column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="down()">
+        <td><a href="yii-db-migration.html#down()-detail">down()</a></td>
+        <td>This method contains the logic to be executed when removing this migration.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropColumn()">
+        <td><a href="yii-db-migration.html#dropColumn()-detail">dropColumn()</a></td>
+        <td>Builds and executes a SQL statement for dropping a DB column.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropCommentFromColumn()">
+        <td><a href="yii-db-migration.html#dropCommentFromColumn()-detail">dropCommentFromColumn()</a></td>
+        <td>Builds and execute a SQL statement for dropping comment from column</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropCommentFromTable()">
+        <td><a href="yii-db-migration.html#dropCommentFromTable()-detail">dropCommentFromTable()</a></td>
+        <td>Builds a SQL statement for dropping comment from table</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropForeignKey()">
+        <td><a href="yii-db-migration.html#dropForeignKey()-detail">dropForeignKey()</a></td>
+        <td>Builds a SQL statement for dropping a foreign key constraint.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropIndex()">
+        <td><a href="yii-db-migration.html#dropIndex()-detail">dropIndex()</a></td>
+        <td>Builds and executes a SQL statement for dropping an index.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropPrimaryKey()">
+        <td><a href="yii-db-migration.html#dropPrimaryKey()-detail">dropPrimaryKey()</a></td>
+        <td>Builds and executes a SQL statement for dropping a primary key.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="dropTable()">
+        <td><a href="yii-db-migration.html#dropTable()-detail">dropTable()</a></td>
+        <td>Builds and executes a SQL statement for dropping a DB table.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr id="dropView()">
+        <td><a href="vps-tools-db-migration.html#dropView()-detail">dropView()</a></td>
+        <td>Drops view by name.</td>
+        <td><a href="vps-tools-db-migration.html">vps\tools\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="ensureBehaviors()">
+        <td><a href="yii-base-component.html#ensureBehaviors()-detail">ensureBehaviors()</a></td>
+        <td>Makes sure that the behaviors declared in <a href="yii-base-component.html#behaviors()-detail">behaviors()</a> are attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="execute()">
+        <td><a href="yii-db-migration.html#execute()-detail">execute()</a></td>
+        <td>Executes a SQL statement.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="float()">
+        <td><a href="yii-db-schemabuildertrait.html#float()-detail">float()</a></td>
+        <td>Creates a float column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr id="fromFile()">
+        <td><a href="vps-tools-db-migration.html#fromFile()-detail">fromFile()</a></td>
+        <td>Loads queries from file and executes them. Each query should be on new line just in case.</td>
+        <td><a href="vps-tools-db-migration.html">vps\tools\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="getBehavior()">
+        <td><a href="yii-base-component.html#getBehavior()-detail">getBehavior()</a></td>
+        <td>Returns the named behavior object.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="getBehaviors()">
+        <td><a href="yii-base-component.html#getBehaviors()-detail">getBehaviors()</a></td>
+        <td>Returns all behaviors attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+                <tr class="inherited" id="hasEventHandlers()">
+        <td><a href="yii-base-component.html#hasEventHandlers()-detail">hasEventHandlers()</a></td>
+        <td>Returns a value indicating whether there is any handler attached to the named event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasMethod()">
+        <td><a href="yii-base-component.html#hasMethod()-detail">hasMethod()</a></td>
+        <td>Returns a value indicating whether a method is defined.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasProperty()">
+        <td><a href="yii-base-component.html#hasProperty()-detail">hasProperty()</a></td>
+        <td>Returns a value indicating whether a property is defined for this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="init()">
+        <td><a href="yii-db-migration.html#init()-detail">init()</a></td>
+        <td>Initializes the migration.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="insert()">
+        <td><a href="yii-db-migration.html#insert()-detail">insert()</a></td>
+        <td>Creates and executes an INSERT SQL statement.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="integer()">
+        <td><a href="yii-db-schemabuildertrait.html#integer()-detail">integer()</a></td>
+        <td>Creates an integer column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="money()">
+        <td><a href="yii-db-schemabuildertrait.html#money()-detail">money()</a></td>
+        <td>Creates a money column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="off()">
+        <td><a href="yii-base-component.html#off()-detail">off()</a></td>
+        <td>Detaches an existing event handler from this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="on()">
+        <td><a href="yii-base-component.html#on()-detail">on()</a></td>
+        <td>Attaches an event handler to an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="primaryKey()">
+        <td><a href="yii-db-schemabuildertrait.html#primaryKey()-detail">primaryKey()</a></td>
+        <td>Creates a primary key column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="renameColumn()">
+        <td><a href="yii-db-migration.html#renameColumn()-detail">renameColumn()</a></td>
+        <td>Builds and executes a SQL statement for renaming a column.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="renameTable()">
+        <td><a href="yii-db-migration.html#renameTable()-detail">renameTable()</a></td>
+        <td>Builds and executes a SQL statement for renaming a DB table.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="safeDown()">
+        <td><a href="yii-db-migration.html#safeDown()-detail">safeDown()</a></td>
+        <td>This method contains the logic to be executed when removing this migration.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="safeUp()">
+        <td><a href="yii-db-migration.html#safeUp()-detail">safeUp()</a></td>
+        <td>This method contains the logic to be executed when applying this migration.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="smallInteger()">
+        <td><a href="yii-db-schemabuildertrait.html#smallInteger()-detail">smallInteger()</a></td>
+        <td>Creates a smallint column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="string()">
+        <td><a href="yii-db-schemabuildertrait.html#string()-detail">string()</a></td>
+        <td>Creates a string column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="text()">
+        <td><a href="yii-db-schemabuildertrait.html#text()-detail">text()</a></td>
+        <td>Creates a text column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="time()">
+        <td><a href="yii-db-schemabuildertrait.html#time()-detail">time()</a></td>
+        <td>Creates a time column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="timestamp()">
+        <td><a href="yii-db-schemabuildertrait.html#timestamp()-detail">timestamp()</a></td>
+        <td>Creates a timestamp column.</td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+            <tr class="inherited" id="trigger()">
+        <td><a href="yii-base-component.html#trigger()-detail">trigger()</a></td>
+        <td>Triggers an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="truncateTable()">
+        <td><a href="yii-db-migration.html#truncateTable()-detail">truncateTable()</a></td>
+        <td>Builds and executes a SQL statement for truncating a DB table.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="up()">
+        <td><a href="yii-db-migration.html#up()-detail">up()</a></td>
+        <td>This method contains the logic to be executed when applying this migration.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+            <tr class="inherited" id="update()">
+        <td><a href="yii-db-migration.html#update()-detail">update()</a></td>
+        <td>Creates and executes an UPDATE SQL statement.</td>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+                                                                                                                                                                                                                <tr class="inherited" id="getDb()">
+        <td><a href="yii-db-schemabuildertrait.html#getDb()-detail">getDb()</a></td>
+        <td></td>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+    </tr>
+                                                                                                </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="createView()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="vps-tools-db-migration.html#createView()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        createView()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Creates database view.</strong></p>
+
+        
+        <p>See also <a href="vps-tools-db-migration.html#dropView()-detail">dropView()</a>.</p>    </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="vps-tools-db-migration.html#createView()-detail">createView</a></strong> ( <span style="color: #0000BB">$name</span>, <span class="signature-type"><a href="yii-db-query.html">yii\db\Query</a></span> <span style="color: #0000BB">$query</span>, <span style="color: #0000BB">$replace&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$name</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>View name.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$query</span></td>
+                  <td class="param-type-col"><a href="yii-db-query.html">yii\db\Query</a></td>
+                  <td class="param-desc-col"><p>Query that is used to create view.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$replace</span></td>
+                  <td class="param-type-col">bool</td>
+                  <td class="param-desc-col"><p>Whether to replace existing view with the same name.</p>
+</td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-db-exception.html">yii\db\Exception</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="dropView()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="vps-tools-db-migration.html#dropView()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        dropView()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Drops view by name.</strong></p>
+
+        
+        <p>See also <a href="vps-tools-db-migration.html#createView()-detail">createView()</a>.</p>    </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="vps-tools-db-migration.html#dropView()-detail">dropView</a></strong> ( <span style="color: #0000BB">$name</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$name</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="fromFile()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="vps-tools-db-migration.html#fromFile()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        fromFile()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Loads queries from file and executes them. Each query should be on new line just in case.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="vps-tools-db-migration.html#fromFile()-detail">fromFile</a></strong> ( <span style="color: #0000BB">$path</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$path</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Path to the file.</p>
+</td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="http://www.php.net/class.exception">Exception</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-db-exception.html">yii\db\Exception</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                        </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Thu, 23 Jun 2016 15:29:17 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
